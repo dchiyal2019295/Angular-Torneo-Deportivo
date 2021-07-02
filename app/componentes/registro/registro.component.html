@@ -1,0 +1,22 @@
+<div class="limiter" id="login">
+  <div class="container-login100" style="background-image:url(https://techcetera.co/wp-content/uploads/2016/06/futbol-1.jpg)">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-5 col-md-offset-1">
+                  <div class="wrap-login100">
+                      <form class="login100-form validate-form"> <span class="login100-form-title "> Regsitrarse </span> <span class="login100-form-subtitle m-b-16"> Crea tu cuenta </span>
+                        <div class="wrap-input100 validate-input m-b-16" data-validate="Name is required"> <input class="input100" type="text" name="Nombre" placeholder="Nombre" #Nombre="ngModel" [(ngModel)]="usuarioModel.nombre"> <span class="focus-input100"></span> <span class="symbol-input100"> <span class="glyphicon glyphicon-lock"></span> </span> </div>
+                        <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required"> <input class="input100" type="text" name="Usuario" placeholder="Usuario" #Usuario="ngModel" [(ngModel)]="usuarioModel.username"> <span class="focus-input100"></span> <span class="symbol-input100"> <span class="glyphicon glyphicon-lock"></span> </span> </div>
+                        <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required"> <input class="input100" type="email" name="Email" placeholder="Email" #Email="ngModel" [(ngModel)]="usuarioModel.email"> <span class="focus-input100"></span> <span class="symbol-input100"> <span class="glyphicon glyphicon-lock"></span> </span> </div>
+                        <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required"> <input class="input100" type="password" name="Password" placeholder="Password" #Password="ngModel" [(ngModel)]="usuarioModel.password"> <span class="focus-input100"></span> <span class="symbol-input100"> <span class="glyphicon glyphicon-lock"></span> </span> </div>
+                        <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required"> <input class="input100" type="text" name="Rol" placeholder="Rol" #Rol="ngModel" [(ngModel)]="usuarioModel.rol"> <span class="focus-input100"></span> <span class="symbol-input100"> <span class="glyphicon glyphicon-lock"></span> </span> </div>
+
+                          <div class="container-login100-form-btn p-t-25"> <button class="login100-form-btn" type="submit" (click)="registrar()"> Registrarse </button> </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
